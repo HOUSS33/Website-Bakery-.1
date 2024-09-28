@@ -1,0 +1,433 @@
+/*  .lobster-regular Class Code delivered By Google fonts Site  */
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;    /*     bold, thin, normal                             */
+    font-style: normal;  /*     normal, italic, oblique, initial, inherit      */
+    text-align: center;
+    font-size: 2em;    /*     taille relatif selon le type de device         */
+    position: relative;
+    bottom: 60%;
+}
+
+.lobster-regular2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;    /*     bold, thin, normal                             */
+    font-style: normal;  /*     normal, italic, oblique, initial, inherit      */
+    text-align: center;
+    font-size: 4em;    /*     taille relatif selon le type de device         */
+    position: relative;
+    bottom: 60%;
+}
+
+.text {
+    position: relative;
+    bottom: 20px;
+}
+
+
+/* Page Background*/
+body {
+    background-image: url(sprinkle.avif);
+}
+
+
+/*Welcome to Pink Boxe*/
+#a {
+    color: #f6f8f7
+}
+#b {
+    color: #f6f8f7
+}
+
+
+/*Text Between Two Donuts*/
+#c
+{
+    color: white;
+}
+
+#g
+{
+    color:  #8AAAE5;
+}
+
+#d
+{
+    
+    color: rgb(248, 93, 144);
+    
+
+}
+
+#xo
+{
+    color: rgb(44, 248, 136)
+}
+
+#i
+{
+    color: #E4EA8C;
+}
+
+#e
+{
+    text-align: center;
+    font-size: 10px;
+    
+
+}
+
+.custom-element {
+    width: 1280px;
+    height: 230px;
+    background-image: url(BlackBackground.png);
+    background-size:contain;
+    background-position: center;
+    border-radius: 20px;
+    /*overflow: hidden;*/
+}
+
+
+/*Boutique_Background*/
+
+#background {
+    background-image: url(boutique.jpeg);
+}
+
+#store {
+    position: relative;
+    left: 670px;
+    background-color: #DA70D6;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    bottom: 200px;
+
+}
+#storepicture {
+    position: relative;
+    left: 307px;
+    bottom: 40px;
+}
+
+/*#DonutsHeaven {
+    position: relative;
+    bottom: 220px;
+    background-image: url("donutheaven.jpg");
+    width: 1280px;
+    height: 330px;
+}*/
+
+.contact {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+
+.Download_Button {
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+/*.Donut70 {
+    position: relative;
+    left: 500px;
+    bottom: 230px;
+    cursor: pointer;
+}*/
+
+.DonutsPictureRight {
+    position: relative;
+    right: 50px;
+    top:20px;
+}
+
+
+.DonutsPictureLeft {
+    position: relative;
+    left: 750px;
+    top:20px;
+}
+
+a{
+    text-decoration: none;
+    text-align: right;
+}
+
+
+
+#StoreAdresse
+{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    right: 150px;
+    top: 100px;
+}
+
+
+/* 3 Pictures */
+.Pictures3
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 30px;
+}
+
+
+
+.box
+{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.box:hover
+{
+    transform: scale(1.1);
+}
+
+/*Store Adresse*/
+.StoresAdresse
+{
+    display: flex; /*Pour aligner les elements en une seule ligne*/
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 60px;
+    padding-bottom: 200px;
+   
+
+}
+
+.StoresAdresse1
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 60px;
+    padding-bottom: 200px;
+   
+
+}
+
+.boxAddres
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    /*border-radius: 10px;*/
+    text-align: center;
+    padding-top: 0px ;
+    background-size:cover;
+    width: 330px;
+    border-radius: 20px;
+}
+
+#z
+{
+    color: whitesmoke;
+}
+
+#x
+{
+    color: #FF00FF;
+}
+
+#p
+{
+    color: black;
+}
+
+
+.whitePart {
+    position: relative;
+    padding-top: 60px;
+    background-color: #FFDEAD;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    margin-left: calc(50% - 50vw); /* Center the element horizontally */
+    margin-right: calc(50% - 50vw); /* Center the element horizontally */
+}
+
+
+
+.pineappleDonut
+{
+    position: relative;
+    text-align: center;
+    left: 120px;
+}
+
+.bestDonutLA
+{
+    padding-left: 800px;
+}
+
+
+/* Menu Styles */
+.menu {
+    background-color:#fff;
+    padding: 10px 0;
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Distribute items evenly */
+    border-radius: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 10px 90px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul li a:hover {
+    background-color: #ddd;
+}
+
+
+/* Main Content Styles */
+.history {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.history h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.history p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+/* Highlighted Text */
+.highlight {
+    color: purple;
+    font-weight: bold;
+}
+
+/*footer Style*/
+/* Ensure that the parent container spans the entire height of the page */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+    width: 100vw; /* Set width to 100% of the viewport width */
+    margin-left: calc(50% - 50vw); /* Center the element horizontally */
+    margin-right: calc(50% - 50vw);
+    margin-bottom: 0;
+}
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-link {
+    color: #fff;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.footer-text {
+    font-size: 14px;}
+
+
+
+
+/*contact form*/
+body {
+    font-family: Arial, sans-serif;
+   
+    background-color: #f0f0f0;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-group button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}

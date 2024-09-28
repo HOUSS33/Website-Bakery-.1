@@ -1,0 +1,43 @@
+
+
+
+
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Main Content Styles */
+.history {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.history h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.history p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: purple;
+    font-weight: bold;
+}
+
+

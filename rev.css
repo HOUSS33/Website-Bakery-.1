@@ -1,0 +1,122 @@
+h1
+{
+    color: aqua;
+}
+
+#kop
+{
+    color: yellowgreen;
+    text-shadow: 10px,10px,10px;
+    
+}
+
+.top
+{
+    color: violet;
+}
+
+.p1
+{
+    font-size: 100px; /* taille absolue*/
+    font-size: 2 em; /*taille realtif selon device*/
+    font-family: 'Courier New', Courier, monospace; /* Police d ecricture cherche sur google font*/
+    font-style: italic; /*italic, normal,...*/
+    font-style: normal; 
+
+
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+}
+#ul
+{
+    padding-left: 400px;
+    justify-content: center;
+    
+}
+body
+{
+    background-image: url(la.jpg);
+    background-attachment: fixed; /*fix l image background*/
+    background-size: cover; /*l image s adapte  a la taille de l element qui la contient*/
+    background-position: top right;
+    /*background-color: blue;*/
+    color: aqua; /*le texte de la page sera aqua*/
+
+}
+
+#re
+{
+    background-position: right;
+
+    border: solid; /*dashed, dotted, double*/
+    border-top: dotted;
+    border-bottom: double;
+    border-right: dashed;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px rgba(0,0, 0);
+
+    /*flex-direction: column; organiser sur colonne*/
+    display: flex; /*aligne les element du container en une seul ligne*/
+    justify-content: space-between;
+    justify-content: space-around; /* create space pour jnabe de page*/
+    /*justify-content: flex-end or flex-start or center;*/
+
+    /*flex-wrap: nowrap or wrap; les element reviens a la ligne quand il y a pas despace pour wrap*/
+    padding: 20px;
+    margin: 20px;
+    margin-top: 90px;
+}
+
+.videl
+{
+    z-index: -1;
+    position:absolute;
+}
+
+
+/*hover the image*/
+.box:hover
+{
+    transform: scale(1.1);
+    color: aliceblue;
+}
+
+facebool:visited
+{
+    color: blueviolet; /*if already visited it get violet */
+}
+
+/* Table--------------------------------------*/
+table
+{
+    border-collapse: collapse;
+    
+}
+
+td,th
+{
+    border:1px solid black;
+    padding: 15px;
+}
+/*---------------------------------------------*/
+#po
+{
+    padding: 40px ;
+    margin: 40px;
+    padding-left: 360px;
+    justify-content: center;
+}
+
+textarea
+{
+    width: 70px;
+    height: 60px;
+    
+}
